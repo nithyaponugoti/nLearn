@@ -7,7 +7,7 @@ int main()
     printf("%d\n", a);
     a = (x>0||x>y);
     printf("%d\n", a);
-    a = (x>5||x++);
+    a = (x>5 && x++);
     printf("%d\n", a);
     printf("%d", x);
     return 0;
