@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int x=1;
+    int x=3;
     printf("%d\n", ~x);
     int y=5;
     printf("%d\n", ~y);
