@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int n=15;
-    printf("%d", (n*(n+1))/2);
-    return 0;
+    int a= 15;
+    int n= 13;
+    int ans = (a * (n-1)*(n+1));
+    ans += 10;
+    ans %= 7;
+        printf("%d\n", ans);
 }
-
