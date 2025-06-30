@@ -1,30 +1,25 @@
 #include <stdio.h>
 int main()
 {
-    int x;
-    printf("Enter a number:\n");
-    scanf("%d", &x);
-    if (x>0)
-    {
-        printf("Positive ");
-    if (x%2==0)
-        printf("Even\n");
+    char x,y;
+    printf("Enter two choice:\n");
+    scanf("%c %c", &x,&y);
+    if (x=='R')
+        x++;
+    else if (x=='L')
+        x--;
+    else if (x=='U')
+        y++;
+    else if(x=='D')
+        y--;
     else
-        printf("Odd\n");
-    }
-    
-        else if(x<0)
-    {
-        printf("Negative ");
-        if (x%2==0)
-        printf("Even\n");
-        else
-        printf("Odd\n");
-    }
-    else 
-    {
-        printf("Zero\n");
-    }
-    return 0;
+        printf("Invalid #");
 
+    
 }
+    printf("%c %c", x,y)
+{
+    return 0;
+}
+    
+
