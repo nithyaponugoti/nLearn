@@ -6,10 +6,10 @@ int main()
     scanf("%d %d", &x,&y);
     for(int i=1; i<=x; i++){
         if(i%y==0)
-        continue;
-        
+            continue;
             printf("%d ", i);
         }
             return 0;
         
 }
+
