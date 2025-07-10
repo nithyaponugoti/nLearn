@@ -8,8 +8,8 @@ void PrimeFactors(int n, int a){
 }
 if (n%a==0)
 {
-printf("%d\n", a);
-PrimeFactors(n/a, a);
+    printf("%d\n", a);
+    PrimeFactors(n/a, a);
 }
 else
 {
