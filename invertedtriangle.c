@@ -11,7 +11,7 @@ int main()
             if(x>=(n-y+1))
                 printf("* ");
             else
-                printf("    ");
+                printf("  ");
         }
         printf("\n");
     }
