@@ -6,12 +6,14 @@ int main()
     scanf("%d", &n);
     for(int x=1; x<=n; x++)
     {
-        for(int y=1; y<=x; y++)
+        for(int y=1; y<=n; y++)
         {
-            printf("* ");
+            if(x>=(n-y+1))
+                printf("* ");
+            else
+                printf("    ");
         }
         printf("\n");
     }
     return 0;
-
 }
