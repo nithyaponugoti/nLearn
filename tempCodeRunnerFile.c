@@ -4,16 +4,8 @@ int main()
     int n;
     printf("Enter a value:\n");
     scanf("%d", &n);
-    for(int x=1; x<=n; x++)
-    {
-        for(int y=1; y<=n; y++)
-        {
-            if(x>=(n-y+1))
-                printf("* ");
-            else
-                printf("    ");
-        }
-        printf("\n");
-    }
-    return 0;
+    for(int x=n-1; x>0; x--)
+{
+    printf("%d", (n * x));
+}
 }
