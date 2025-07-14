@@ -18,6 +18,6 @@ int main()
         break;
     }
     }
-    printf("%d", ans);
-    return 0;   
+        printf("%d", ans);
+        return 0;   
 }
