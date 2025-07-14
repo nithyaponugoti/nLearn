@@ -10,8 +10,8 @@ int NextPrime(int n){
 
     }
         if(i==n)
-        return n;
-        n++;
+            return n;
+            n++;
     }
 }
 int main()
