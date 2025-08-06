@@ -4,21 +4,21 @@ struct S1
 	char a;
 	int b;
 	double c;
-};
+}__attribute__((packed));
 
 struct S2
 {
 	char d;
 	char e;
 	double f;
-};
+}__attribute__((packed));
 
 struct S3
 {
 	char g;
 	double h;
 	char i;
-};
+}__attribute__((packed));
 
 int main()
 {
